@@ -1,0 +1,90 @@
+/* anim.css */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* anim.css */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .skill-item {
+    animation: fadeIn 0.6s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .skill-item:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  
+  .skill-item:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  
+  .skill-item:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  
+  .skill-item:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  
+  .skill-item:nth-child(5) {
+    animation-delay: 1s;
+  }
+  
+  
+  .page-content {
+    animation: fadeIn 1.5s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .page-content > * {
+    animation: fadeIn 1.5s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .page-content > *:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  
+  .page-content > *:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  
+  .page-content > *:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  
+  .page-content > *:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  
+  .page-content > *:nth-child(5) {
+    animation-delay: 1s;
+  }
+  
+  .page-content > *:nth-child(6) {
+    animation-delay: 1.2s;
+  }
+  
+  .page-content > *:nth-child(7) {
+    animation-delay: 1.4s;
+  }
+  

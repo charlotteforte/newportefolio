@@ -1,0 +1,17 @@
+.header {
+  position: fixed;
+  right: 80px;
+  top: 50px;
+  z-index: 100; /* Ajoutez un z-index élevé pour que le header soit au-dessus */
+}
+
+
+  .menu{
+      width: 480px;
+      height: 650px;
+      background-color:#1ed046 ;
+      border-radius: 25px;
+      position: relative;
+  }
+
+ 
