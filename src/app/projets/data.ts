@@ -9,13 +9,13 @@ export const projects = [
     {
         name: "Unity Game en développement",
         description: "Unity",
-        src: "Unity vidéo3.mp4",
+        src: "/videos/Unity vidéo3.mp4",
         year: 2024,
     },
     {
         name: "",
         description: "After Effect",
-        src: "videoafter.mp4", 
+        src: "/videos/videoafter.mp4", 
         year: 2024,
     },
     {
