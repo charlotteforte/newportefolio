@@ -2,6 +2,24 @@ import styles from './style.module.scss';
 import Double from '@/components/Double';
 import { projects } from './data';
 
+{projects.map((project, index) => (
+  <div key={index}>
+    {project.src.endsWith('.mp4') ? (
+      <video 
+        src={project.src}
+        controls
+        playsInline
+        className="w-full"
+      />
+    ) : (
+      <img 
+        src={project.src}
+        alt={project.name}
+        className="w-full"
+      />
+    )}
+  </div>
+))}
 
 export default function Home() {
   return (
